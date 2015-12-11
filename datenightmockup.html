@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <title>Datenight</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/w3.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">   
+    <body class="w3-container">
+        <div class="w3-half">
+            <form class="w3-form w3-card-4 w3-container">
+                <div class="w3-input-group">
+                    <input class="w3-check" name="datetype" value="romantic" type="radio" checked="checked">
+                    <label class="w3-validate">Romantic Date</label>                
+                    <input class="w3-check" name="datetype" value="hangout" type="radio">
+                    <label class="w3-validate">Hang Out With Friends</label>                
+                    <input class="w3-check" name="datetype" value="dutch" type="radio">
+                    <label class="w3-validate">Dutch Date</label>
+                    <input class="w3-check" name="datetype" value="ratchet" type="radio">
+                    <label class="w3-validate">Ratchet Love</label>
+                </div>
+                <div class="w3-input-group">
+                    <label class="w3-validate">Tags</label><br/>
+                    <input class="w3-check" name="tags" type="text" style="width:100%">
+                </div>
+                <div class="w3-input-group">
+                    <label class="w3-validate">Description</label><br/>
+                    <textarea class="w3-input w3-border" id="description" name="description" style="width:90%"></textarea>                
+                </div>
+                <div class="w3-input-group">
+                    <label class="w3-validate">Date</label><br/>
+                    <input class="w3-check" name="tags" type="date">
+                </div>
+                <div class="w3-input-group">
+                    <label class="w3-validate">Time</label><br/>
+                    <input class="w3-check" name="tags" type="time">
+                    <br>                   
+                </div>  
+                <div class="w3-input-group">
+                    <button class="w3-btn w3-blue">
+                        Submit
+                    </button>
+                </div>
+            </form>            
+            <div class="w3-card-4">
+                <div class="w3-card-2 w3-container">
+                    <div>
+                        <p>Date Type : Dutch Date</p>
+                        <p>Date Description : I have am a season ticket holder to the Tennesse TItans and would love to have someone go with me.  
+                            It's box seating.</p>
+                        <p>Date : Unspecified</p>
+                        <p>Time : Unspecified</p>
+                        <p>Tags : sports, football</p>
+                    </div>
+                    <nav class="w3-topnav">
+                        <a href="#"><i class="fa fa-pencil btnEdit"></i></a><span>Edit</span>                         
+                        <a href="#"><i class="fa fa-trash btnDelete"></i>Delete</a>
+                    </nav>                        
+                </div>
+                <div class="w3-card-2">
+                    <div>
+                        <p>Date Type : Just Friends</p>
+                        <p>Date Description : We have a holiday office party comging up and I'm tired of going to these things by myself.
+                        No pressure but if we make a romatic connection I'm open to that too.</p>
+                        <p>Date : 12/15/2017</p>
+                        <p>Time : 8:00 pm</p>
+                    </div>
+                    <nav class="w3-topnav">
+                        <a href="#"><i class="fa fa-pencil btnEdit"></i></a><span>Edit</span>                         
+                        <a href="#"><i class="fa fa-trash btnDelete"></i>Delete</a>
+                    </nav>                        
+                </div>                
+            </div>
+        </div>
+        <div class="w3-half">
+            <form class="w3-form w3-card-4 w3-container">
+                <label>Looking for dates from:</label>
+                <div class="w3-input-group">
+                    <input class="w3-check" name="seekergender" value="men" type="radio">
+                    <label class="w3-validate">Men</label>                
+                    <input class="w3-check" name="seekergender" value="hangout" type="radio">
+                    <label class="w3-validate">Women</label>                
+                </div>
+                <label>Seeking:</label>
+                <div class="w3-input-group">
+                    <input class="w3-check" name="seekergender" value="men" type="radio">
+                    <label class="w3-validate">Men</label>                
+                    <input class="w3-check" name="seekergender" value="hangout" type="radio">
+                    <label class="w3-validate">Women</label>                
+                </div>                
+                <div class="w3-input-group">
+                    <input class="w3-check" name="startage" type="text">
+                    <label class="w3-validate">Start Age</label>                
+                    <input class="w3-check" name="endage"  type="text">
+                    <label class="w3-validate">End Age</label>                
+                </div>                
+                <div class="w3-input-group">
+                    <label class="w3-validate">Tags</label><br/>
+                    <input class="w3-check" name="tags" type="text" style="width:100%">
+                </div>
+                <div class="w3-input-group">
+                    <label class="w3-validate">From</label><br/>
+                    <input class="w3-check" name="begindate" type="date">
+                </div>
+                <div class="w3-input-group">
+                    <label class="w3-validate">Through</label><br/>
+                    <input class="w3-check" name="begindate" type="date">
+                </div>               
+                <div class="w3-input-group">
+                    <button class="w3-btn w3-blue">
+                        Submit
+                    </button>
+                </div>
+            </form>            
+        </div>
+    </body>
+</html> 

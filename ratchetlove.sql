@@ -26,22 +26,6 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Table structure for table `africanwalk_awardcatgry`
 --
 
-CREATE TABLE `africanwalk_awardcatgry` (
-  `Awardcat_id` int(100) NOT NULL AUTO_INCREMENT,
-  `award_title` varchar(100) NOT NULL,
-  `award_desc` varchar(1000) NOT NULL,
-  `award_image` varchar(100) NOT NULL,
-  PRIMARY KEY (`Awardcat_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
-
---
--- Dumping data for table `africanwalk_awardcatgry`
---
-
-INSERT INTO `africanwalk_awardcatgry` VALUES(2, 'Individual', '<p>Individuals will be honoured for....</p>', 'awards_011.jpg');
-INSERT INTO `africanwalk_awardcatgry` VALUES(3, 'Group or duo', '<p>Group will be recognized by the walk for...</p>', 'awards_0112.jpg');
-INSERT INTO `africanwalk_awardcatgry` VALUES(4, 'Guiding lights', '<p>Influential individuals who have has a positive influence on Canadians will be honoured posthumously.&nbsp;</p>', 'awards_03.jpg');
-
 -- --------------------------------------------------------
 
 --

@@ -55,9 +55,9 @@ $db['default']['password'] = 'Ipxfl!@3';
 $db['default']['database'] = 'ipxflorida';*/
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'visionpa_root';
-$db['default']['password'] = 'acespade';
-$db['default']['database'] = 'visionpa_DemoDB';    
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'ratchetlove';    
     
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'ratchet_';
