@@ -7,6 +7,7 @@
     <body class="w3-container">
         <div class="w3-half">
             <form class="w3-form w3-card-4 w3-container">
+                <h2 class="w3-blue">New Date Suggestion</h2>
                 <div class="w3-input-group">
                     <input class="w3-check" name="datetype" value="romantic" type="radio" checked="checked">
                     <label class="w3-validate">Romantic Date</label>                
@@ -41,6 +42,7 @@
                 </div>
             </form>            
             <div class="w3-card-4">
+                <h2 class="w3-blue">My Date Suggestions</h2>
                 <div class="w3-card-2 w3-container">
                     <div>
                         <p>Date Type : Dutch Date</p>
@@ -53,6 +55,7 @@
                     <nav class="w3-topnav">
                         <a href="#"><i class="fa fa-pencil btnEdit"></i></a><span>Edit</span>                         
                         <a href="#"><i class="fa fa-trash btnDelete"></i>Delete</a>
+                        <a href="#"><i class="fa fa-heart-o btnShowLikes"></i><span class="likecount"> 0 </span>Like(s)</a>
                     </nav>                        
                 </div>
                 <div class="w3-card-2">
@@ -66,12 +69,24 @@
                     <nav class="w3-topnav">
                         <a href="#"><i class="fa fa-pencil btnEdit"></i></a><span>Edit</span>                         
                         <a href="#"><i class="fa fa-trash btnDelete"></i>Delete</a>
+                        <a href="#"><i class="fa fa-heart btnShowLikes"></i><span class="likecount"> 2 </span>Like(s)</a>
+                        <div class="likelist">
+                            <div class="w3-card-2 w3-container">
+                                <p>Name : Raven Wood  Age : 32  Gender : Female</p>
+                                <img src="assets/images/img2.jpg">
+                            </div>
+                            <div class="w3-card-2 w3-container">
+                                <p>Name : Melissa Harris  Age : 28  Gender : Female</p>
+                                <img src="assets/images/img3.jpg">
+                            </div>                            
+                        </div>
                     </nav>                        
                 </div>                
             </div>
         </div>
         <div class="w3-half">
             <form class="w3-form w3-card-4 w3-container">
+                <h2 class="w3-blue">Search Date Suggestions</h2>
                 <label>Looking for dates from:</label>
                 <div class="w3-input-group">
                     <input class="w3-check" name="seekergender" value="men" type="radio">
@@ -109,7 +124,36 @@
                         Submit
                     </button>
                 </div>
-            </form>            
+            </form>
+            <div class="w3-card-4" id="date-search-list">
+                <h2 class="w3-blue">Date Suggestions I Might Like</h2>
+                <div class="w3-input-group w3-card-2 w3-container">
+                    <p>Show Date Types:</p>
+                    <input class="w3-check" name="datetype" value="all" type="radio" checked="checked">
+                    <label class="w3-validate">All</label>                
+                    <input class="w3-check" name="datetype" value="romantic" type="radio">
+                    <label class="w3-validate">Romantic Date</label>                
+                    <input class="w3-check" name="datetype" value="hangout" type="radio">
+                    <label class="w3-validate">Hang Out With Friends</label>                
+                    <input class="w3-check" name="datetype" value="dutch" type="radio">
+                    <label class="w3-validate">Dutch Date</label>
+                    <input class="w3-check" name="datetype" value="ratchet" type="radio">
+                    <label class="w3-validate">Ratchet Love</label>
+                </div>
+                <div class="w3-card-2 w3-container">
+                    <div>
+                        <p>Name : Raven Wood  Age : 32  Gender : Female</p>
+                        <img src="assets/images/img2.jpg">
+                        <p>Date Type : Just Friends</p>
+                        <p>Date Description : I've got tickets to the Nashville Preds game</p>
+                        <p>Date : 1/15/2017</p>
+                        <p>Time : 7:00 pm</p>
+                    </div>
+                    <nav class="w3-topnav">
+                        <a href="#"><i class="fa fa-heart-o btnEdit"></i></a><span>Like</span>                         
+                    </nav>
+                </div>
+            </div>
         </div>
     </body>
 </html> 
